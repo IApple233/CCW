@@ -10,12 +10,12 @@ const css = await readFile(path.join(root, 'assets/style.css'), 'utf8');
 const gallery = JSON.parse(await readFile(path.join(root, 'assets/gallery.json'), 'utf8'));
 const assets = new Set([...html.matchAll(/(?:src|href|poster)="([^"#][^"]*)"/g)].map((m) => m[1]).filter((s) => !/^https?:/.test(s)));
 for (const match of css.matchAll(/url\("([^"]+)"\)/g)) assets.add(`assets/${match[1]}`);
-assert.equal(gallery.short.length, 20, 'Exactly 20 short examples are required');
-assert.equal(gallery.long.length, 12, 'Exactly 12 long examples are required');
+assert.equal(gallery.short.length, 24, 'Exactly 24 short examples are required');
+assert.equal(gallery.long.length, 18, 'Exactly 18 long examples are required');
 assert(gallery.short.every((item) => item.checkpoint === 5000 && Math.abs(item.duration - 124 / 24) < 0.01), 'Short examples must use Step 5000 and retain 124 frames');
 assert(gallery.long.every((item) => item.duration === 60), 'Long examples must be complete 60-second videos');
 for (const group of ['riding', 'interaction', 'exploration']) {
-  assert.equal(gallery.long.filter((item) => item.group === group).length, 4, `Four ${group} examples are required`);
+  assert.equal(gallery.long.filter((item) => item.group === group).length, 6, `Six ${group} examples are required`);
 }
 const examples = [...gallery.short, ...gallery.long];
 const ids = new Set();

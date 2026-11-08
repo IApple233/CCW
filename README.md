@@ -4,7 +4,7 @@
 
 Project page: https://iapple233.github.io/CCW/
 
-The page includes the complete demonstration, 20 short examples from the 0921 generalization evaluation at Step 5000, and 12 complete 60-second Long Event50 examples: four each of riding, interaction, and exploration. Each example supports synchronized player views and generated/proxy comparisons.
+The page includes the complete demonstration, 24 short examples from the 0921 generalization evaluation at Step 5000, and 18 complete 60-second Long Event50 examples: six each of riding, interaction, and exploration. Each example supports synchronized player views and generated/proxy comparisons.
 
 ## Local preview
 
@@ -34,7 +34,7 @@ The GitHub Pages workflow validates, builds, and publishes changes pushed to `ma
 - `index.html`: publication title, abstract, and page sections.
 - `assets/style.css`: responsive navy, ice blue, and coral theme.
 - `assets/app.js`: synchronized playback, pagination, category selection, and comparison controls.
-- `assets/gallery.json`: the 32 selected examples and media paths.
+- `assets/gallery.json`: the 42 selected examples and media paths.
 - `MEDIA.md`: media sources, checkpoint information, and encoding details.
 
 Fonts are stored locally with their SIL Open Font License notices. The original repository's license is retained; external fonts and research media retain their respective rights and attribution.

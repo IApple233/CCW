@@ -12,7 +12,7 @@ The full 127-second demonstration is preserved, including audio and embedded Gam
 
 Source suite: `generalization_0921_30`, checkpoint **Step 5000**.
 
-Twenty selected source viewer indices: **1, 2, 3, 4, 5, 7, 8, 10, 11, 12, 13, 14, 15, 17, 18, 19, 20, 27, 29, 30**.
+Twenty-four selected source viewer indices: **1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 27, 28, 29, 30**.
 
 Each generated/proxy pair retains the full 124-frame sequence at 24 fps (5.167 seconds) and its 1664×480 side-by-side layout. The full original sample ID and checkpoint are recorded in `assets/gallery.json`.
 
@@ -22,11 +22,11 @@ Source suite: `long_event50/viewer_60s`, checkpoint **Step 2000**.
 
 | Category | Source case indices | Duration per example |
 | --- | --- | --- |
-| Riding / 骑乘 | 1, 6, 13, 14 | 60 seconds |
-| Interaction / 交互 | 22, 27, 32, 33 | 60 seconds |
-| Exploration / 探索 | 42, 43, 46, 48 | 60 seconds |
+| Riding / 骑乘 | 1, 2, 6, 9, 13, 14 | 60 seconds |
+| Interaction / 交互 | 22, 27, 30, 32, 33, 38 | 60 seconds |
+| Exploration / 探索 | 41, 42, 43, 44, 46, 48 | 60 seconds |
 
-All twelve examples preserve the complete 1,440-frame sequence at 24 fps. Their paired generated/proxy videos are resized proportionally from 2560×720 to 1600×450.
+All eighteen examples preserve the complete 1,440-frame sequence at 24 fps. Their paired generated/proxy videos are resized proportionally from 2560×720 to 1600×450.
 
 ## Web encoding
 

@@ -12,7 +12,7 @@ class Gallery {
     this.entries = entries;
     this.long = root.dataset.collection === 'long';
     this.cases = this.long ? entries.filter((entry) => entry.group === 'riding') : entries;
-    this.pageSize = this.long ? 4 : 10;
+    this.pageSize = 10;
     this.page = 0;
     this.index = 0;
     this.playing = false;
@@ -226,7 +226,8 @@ class Gallery {
   renderSelector() {
     this.selector.replaceChildren();
     const start = this.page * this.pageSize;
-    this.cases.slice(start, start + this.pageSize).forEach((item, offset) => {
+    const visibleCases = this.long ? this.cases : this.cases.slice(start, start + this.pageSize);
+    visibleCases.forEach((item, offset) => {
       const index = start + offset;
       const button = document.createElement('button');
       button.type = 'button';
