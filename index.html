@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1220">
+  <title>CoCode-World: Shared 3D Proxy Representation for Multi-Player World Models</title>
+  <meta name="description" content="A shared 3D scene, two player perspectives. CoCode-World connects a shared spatial state with reference-conditioned, joint two-player video generation.">
+  <meta property="og:title" content="CoCode-World: Shared 3D Proxy Representation for Multi-Player World Models">
+  <meta property="og:description" content="A shared world. Two perspectives. Explore joint two-player video generation with a shared 3D proxy representation.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://iapple233.github.io/CCW/">
+  <link rel="canonical" href="https://iapple233.github.io/CCW/">
+  <meta property="og:image" content="https://iapple233.github.io/CCW/assets/media/social-preview.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/manrope.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="assets/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="wordmark" href="#" aria-label="CoCode-World home"><svg viewBox="0 0 30 30" fill="none" aria-hidden="true"><rect x="2" y="5" width="18" height="18" rx="3" stroke="currentColor" stroke-width="1.7"/><rect x="10" y="9" width="18" height="18" rx="3" stroke="#a9c9e5" stroke-width="1.7"/><path d="m13 13 6 4-6 4v-8Z" fill="currentColor"/></svg><span>CoCode<span class="wordmark-dash">-</span>World</span></a>
+      <nav aria-label="Main navigation"><a href="#gallery">Generalization</a><a href="#long-events">Long events</a><a href="#abstract">Abstract <span aria-hidden="true">↗</span></a></nav>
+    </div>
+  </header>
+  <main id="main">
+    <section class="publication-hero" aria-labelledby="publication-title">
+      <div class="container">
+        <p class="eyebrow"><span class="status-dot"></span> Multi-player generative world models</p>
+        <h1 id="publication-title">CoCode-World<span class="subtitle-line">Shared 3D Proxy Representation<br class="desktop-break"> for Multi-Player World Models</span></h1>
+        <p class="hero-description">A shared world. Two perspectives.<br>Connecting a common 3D scene with joint two-player video generation.</p>
+        <nav class="publication-links" aria-label="Explore the project">
+          <a class="button button-dark" href="#demo"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="m7 4 9 6-9 6V4Z" fill="currentColor"/></svg>Watch demo</a>
+          <a class="button" href="#gallery"><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><rect x="3" y="3" width="5" height="5" rx="1"/><rect x="12" y="3" width="5" height="5" rx="1"/><rect x="3" y="12" width="5" height="5" rx="1"/><rect x="12" y="12" width="5" height="5" rx="1"/></svg>Explore gallery</a>
+          <a class="button" href="#abstract"><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M5 2.5h7l3 3V17H5V2.5Z"/><path d="M8 8h4M8 11h4M8 14h3"/></svg>Read abstract</a>
+        </nav>
+        <figure class="demo-figure" id="demo">
+          <div class="demo-frame">
+            <video id="demo-video" controls playsinline preload="none" poster="assets/media/demo-poster.webp" aria-label="CoCode-World full demonstration, two minutes and seven seconds"><source src="assets/media/demo.mp4" type="video/mp4">Your browser does not support embedded video. <a href="assets/media/demo.mp4">Download the demonstration.</a></video>
+          </div>
+          <figcaption><span><span class="accent-dot"></span> Two views. One shared world.</span><span class="mono">FULL DEMO <span class="caption-separator">/</span> 02:07</span></figcaption>
+        </figure>
+        <div class="research-facts" aria-label="Research at a glance">
+          <div><strong>7,846</strong><span>paired gameplay examples</span></div>
+          <div><strong>2</strong><span>jointly generated player views</span></div>
+          <div><strong>68</strong><span>appearance-transfer evaluation cases</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery-section section" id="gallery" data-collection="short" aria-labelledby="gallery-heading">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow">01 <span>/</span> 0921 · Step 5000</p><h2 id="gallery-heading">Generalization results</h2><p>Twenty five-second examples from the 0921 generalization evaluation. Compare each generated player view with its structural proxy.</p></div>
+        <div class="gallery-shell" id="gallery-shell" aria-busy="true">
+          <div class="gallery-heading"><div><span class="case-category" id="case-category">0921 · Step 5000</span><h3 id="case-title">Industrial rendezvous</h3></div><span class="case-counter mono" id="case-counter">01 <span>/ 20</span></span></div>
+          <div class="paired-viewports" id="paired-viewports" style="--split: 62%">
+            <div class="player-panel"><div class="view-header"><span><i class="view-dot"></i>Player A</span><span>VIEW 01</span></div><div class="compare-viewport" data-player="a"><video class="proxy-video media-slice" muted playsinline preload="none" poster="assets/media/collections/0921-01-proxy.webp" aria-label="Player A structural proxy"></video><div class="generated-layer"><video class="generated-video media-slice" muted playsinline preload="none" poster="assets/media/collections/0921-01-generated.webp" aria-label="Player A generated appearance"></video></div><span class="media-tag generated-tag">Generated</span><span class="media-tag proxy-tag">3D proxy</span><div class="compare-divider" aria-hidden="true"><span>‹ ›</span></div></div></div>
+            <div class="player-panel"><div class="view-header"><span><i class="view-dot view-dot-b"></i>Player B</span><span>VIEW 02</span></div><div class="compare-viewport" data-player="b"><video class="proxy-video media-slice" muted playsinline preload="none" poster="assets/media/collections/0921-01-proxy.webp" aria-label="Player B structural proxy"></video><div class="generated-layer"><video class="generated-video media-slice" muted playsinline preload="none" poster="assets/media/collections/0921-01-generated.webp" aria-label="Player B generated appearance"></video></div><span class="media-tag generated-tag">Generated</span><span class="media-tag proxy-tag">3D proxy</span><div class="compare-divider" aria-hidden="true"><span>‹ ›</span></div></div></div>
+          </div>
+          <div class="gallery-toolbar"><button type="button" class="play-button" id="gallery-play" aria-label="Play both views" disabled><svg id="play-icon" viewBox="0 0 20 20" aria-hidden="true"><path d="m6 3 10 7-10 7V3Z" fill="currentColor"/></svg><span id="play-label">Play</span></button><span class="play-time mono" id="gallery-time">00:00</span><div class="view-modes" role="group" aria-label="Display mode"><button type="button" data-mode="generated" aria-pressed="false">Generated</button><button type="button" data-mode="compare" aria-pressed="true">Compare</button><button type="button" data-mode="proxy" aria-pressed="false">3D proxy</button></div><button type="button" class="icon-button" id="gallery-fullscreen" aria-label="View gallery fullscreen"><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M3 7V3h4m6 0h4v4M3 13v4h4m6 0h4v-4"/></svg></button></div>
+          <div class="comparison-control" id="comparison-control"><label for="comparison-range">Generated</label><input type="range" id="comparison-range" min="0" max="100" value="62" aria-label="Generated appearance visible in each view" aria-valuetext="62 percent generated, 38 percent 3D proxy"><span>3D proxy</span></div>
+          <p class="gallery-caption" id="case-caption">0921 generalization · Step 5000 · Source case 01. Full 124-frame sequence from two player cameras.</p>
+          <p class="gallery-status" id="gallery-status" role="status" hidden></p>
+        </div>
+        <nav class="collection-navigation" aria-label="Browse 0921 examples"></nav>
+        <div class="case-selector" id="case-selector" role="group" aria-label="Choose a gallery example"></div>
+        <p class="gallery-hint"><svg viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="m5 5-4 4 4 4m8-8 4 4-4 4M1 9h16"/></svg> Drag across either view to compare. Both cameras share the same playback time.</p>
+        <noscript><p>Enable JavaScript to explore the synchronized gallery, or <a href="assets/media/demo.mp4">watch the full demonstration</a>.</p></noscript>
+      </div>
+    </section>
+
+    <section class="long-gallery-section section" id="long-events" data-collection="long" aria-labelledby="long-gallery-heading">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow">02 <span>/</span> Long Event50 · Complete 60 seconds</p><h2 id="long-gallery-heading">A longer shared world.</h2><p>Four full-length examples each of riding, interaction, and exploration. Every clip contains the complete 60-second sequence.</p></div>
+        <div class="category-tabs" role="group" aria-label="Long Event50 categories"><button type="button" data-category="riding" aria-pressed="true">Riding <span>骑乘 · 4</span></button><button type="button" data-category="interaction" aria-pressed="false">Interaction <span>交互 · 4</span></button><button type="button" data-category="exploration" aria-pressed="false">Exploration <span>探索 · 4</span></button></div>
+        <div class="gallery-shell" id="long-gallery-shell" aria-busy="true">
+          <div class="gallery-heading"><div><span class="case-category" id="long-case-category">Riding · 骑乘</span><h3 id="long-case-title">A shared motorcycle ride</h3></div><span class="case-counter mono" id="long-case-counter">01 <span>/ 04</span></span></div>
+          <div class="paired-viewports" id="long-paired-viewports" style="--split: 62%">
+            <div class="player-panel"><div class="view-header"><span><i class="view-dot"></i>Player A</span><span>VIEW 01</span></div><div class="compare-viewport" data-player="a"><video class="proxy-video media-slice" muted playsinline preload="none" poster="assets/media/collections/event50-01-proxy.webp" aria-label="Player A structural proxy"></video><div class="generated-layer"><video class="generated-video media-slice" muted playsinline preload="none" poster="assets/media/collections/event50-01-generated.webp" aria-label="Player A generated appearance"></video></div><span class="media-tag generated-tag">Generated</span><span class="media-tag proxy-tag">3D proxy</span><div class="compare-divider" aria-hidden="true"><span>‹ ›</span></div></div></div>
+            <div class="player-panel"><div class="view-header"><span><i class="view-dot view-dot-b"></i>Player B</span><span>VIEW 02</span></div><div class="compare-viewport" data-player="b"><video class="proxy-video media-slice" muted playsinline preload="none" poster="assets/media/collections/event50-01-proxy.webp" aria-label="Player B structural proxy"></video><div class="generated-layer"><video class="generated-video media-slice" muted playsinline preload="none" poster="assets/media/collections/event50-01-generated.webp" aria-label="Player B generated appearance"></video></div><span class="media-tag generated-tag">Generated</span><span class="media-tag proxy-tag">3D proxy</span><div class="compare-divider" aria-hidden="true"><span>‹ ›</span></div></div></div>
+          </div>
+          <div class="gallery-toolbar"><button type="button" class="play-button" id="long-gallery-play" aria-label="Play both views" disabled><svg id="long-play-icon" viewBox="0 0 20 20" aria-hidden="true"><path d="m6 3 10 7-10 7V3Z" fill="currentColor"/></svg><span id="long-play-label">Play</span></button><span class="play-time mono" id="long-gallery-time">00:00</span><div class="view-modes" role="group" aria-label="Display mode"><button type="button" data-mode="generated" aria-pressed="false">Generated</button><button type="button" data-mode="compare" aria-pressed="true">Compare</button><button type="button" data-mode="proxy" aria-pressed="false">3D proxy</button></div><button type="button" class="icon-button" id="long-gallery-fullscreen" aria-label="View gallery fullscreen"><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M3 7V3h4m6 0h4v4M3 13v4h4m6 0h4v-4"/></svg></button></div>
+          <div class="playback-timeline"><label for="long-timeline">Timeline</label><input type="range" id="long-timeline" min="0" max="60" step="0.05" value="0" aria-label="Seek both player views" aria-valuetext="0 of 60 seconds"><span class="mono">01:00</span></div>
+          <div class="comparison-control" id="long-comparison-control"><label for="long-comparison-range">Generated</label><input type="range" id="long-comparison-range" min="0" max="100" value="62" aria-label="Generated appearance visible in each view" aria-valuetext="62 percent generated, 38 percent 3D proxy"><span>3D proxy</span></div>
+          <p class="gallery-caption" id="long-case-caption">Long Event50 · Riding · Full 60-second sequence, 1,440 frames at 24 fps.</p>
+          <p class="gallery-status" id="long-gallery-status" role="status" hidden></p>
+        </div>
+        <div class="case-selector long-selector" id="long-case-selector" role="group" aria-label="Choose a gallery example"></div>
+        <p class="gallery-hint"><svg viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="m5 5-4 4 4 4m8-8 4 4-4 4M1 9h16"/></svg> Drag across either view to compare. Both cameras share the same playback time.</p>
+        <noscript><p>Enable JavaScript to explore the synchronized gallery, or <a href="assets/media/demo.mp4">watch the full demonstration</a>.</p></noscript>
+      </div>
+    </section>
+
+    <section class="abstract-section section" id="abstract" aria-labelledby="abstract-heading">
+      <div class="container abstract-container"><div class="section-heading"><p class="eyebrow">03 <span>/</span> The research</p><h2 id="abstract-heading">Abstract</h2></div><div class="abstract-copy"><p>Multiplayer generative world models must depict a common scene through cameras that observe different parts of it. A shared spatial state constrains where entities appear, but leaves their visual identity ambiguous across views. We present a <strong>proxy-conditioned renderer</strong> that connects a shared 3D scene with joint two-player video generation.</p><p>Textureless map geometry, entity observations, and player cameras produce paired proxy videos; an RGB reference specifies the desired appearance. We concatenate the two views in a fixed layout and jointly denoise them through the native reference interface of a pretrained video transformer adapted with LoRA. Both views can thereby use appearance evidence from either camera while following their respective structural conditions.</p><p>We construct <strong>7,846 paired gameplay examples</strong> and evaluate reference-conditioned appearance transfer on <strong>68 cases</strong> with outputs from both our renderer and Seedance 2.5. Our renderer achieves higher DOVER (0.524 versus 0.469), LAION aesthetic scores, and edge alignment, together with higher automated cross-view player-identity scores (3.847/5 versus 3.552/5). Seedance retains stronger adjacent-frame DINO similarity and whole-view reference similarity, while qualitative examples illustrate cross-view identity and visibility differences.</p></div></div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="container footer-inner"><div><a class="footer-brand" href="#">CoCode-World</a><p>Shared 3D Proxy Representation for Multi-Player World Models</p></div><div class="footer-right"><a href="#main">Back to top <span aria-hidden="true">↑</span></a><p>Layout inspired by <a href="https://buaacyw.github.io/cwm/" target="_blank" rel="noopener noreferrer">Code World Model</a>.</p></div></div></footer>
+</body>
+</html>
