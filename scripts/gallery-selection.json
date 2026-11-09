@@ -1,0 +1,358 @@
+{
+  "short": [
+    {
+      "id": "actor-gta300-011-s2000",
+      "sourceSuite": "actor-gta300-steps",
+      "sourceCase": "gta300_v1_011",
+      "checkpoint": 2000,
+      "frames": 124,
+      "group": "generalization"
+    },
+    {
+      "id": "actor-gta300-016-s2000",
+      "sourceSuite": "actor-gta300-steps",
+      "sourceCase": "gta300_v1_016",
+      "checkpoint": 2000,
+      "frames": 124,
+      "group": "generalization"
+    },
+    {
+      "id": "actor-gta300-018-s2000",
+      "sourceSuite": "actor-gta300-steps",
+      "sourceCase": "gta300_v1_018",
+      "checkpoint": 2000,
+      "frames": 124,
+      "group": "generalization"
+    },
+    {
+      "id": "actor-gta300-020-s2000",
+      "sourceSuite": "actor-gta300-steps",
+      "sourceCase": "gta300_v1_020",
+      "checkpoint": 2000,
+      "frames": 124,
+      "group": "generalization"
+    },
+    {
+      "id": "actor-gta300-030-s2000",
+      "sourceSuite": "actor-gta300-steps",
+      "sourceCase": "gta300_v1_030",
+      "checkpoint": 2000,
+      "frames": 124,
+      "group": "generalization"
+    },
+    {
+      "id": "actor-gta300-031-s2000",
+      "sourceSuite": "actor-gta300-steps",
+      "sourceCase": "gta300_v1_031",
+      "checkpoint": 2000,
+      "frames": 124,
+      "group": "generalization"
+    },
+    {
+      "id": "actor-gta300-033-s2000",
+      "sourceSuite": "actor-gta300-steps",
+      "sourceCase": "gta300_v1_033",
+      "checkpoint": 2000,
+      "frames": 124,
+      "group": "generalization"
+    },
+    {
+      "id": "actor-gta300-034-s2000",
+      "sourceSuite": "actor-gta300-steps",
+      "sourceCase": "gta300_v1_034",
+      "checkpoint": 2000,
+      "frames": 124,
+      "group": "generalization"
+    },
+    {
+      "id": "actor-gta300-036-s2000",
+      "sourceSuite": "actor-gta300-steps",
+      "sourceCase": "gta300_v1_036",
+      "checkpoint": 2000,
+      "frames": 124,
+      "group": "generalization"
+    },
+    {
+      "id": "actor-gta300-044-s2000",
+      "sourceSuite": "actor-gta300-steps",
+      "sourceCase": "gta300_v1_044",
+      "checkpoint": 2000,
+      "frames": 124,
+      "group": "generalization"
+    },
+    {
+      "id": "actor-align78-033-s3000",
+      "sourceSuite": "actor-align78-steps",
+      "sourceCase": "case_033_09182--dual--s00022--f000000--general",
+      "checkpoint": 3000,
+      "frames": 124,
+      "group": "generalization"
+    },
+    {
+      "id": "actor-align78-047-s3000",
+      "sourceSuite": "actor-align78-steps",
+      "sourceCase": "case_047_0922--dual--s00001--f000000--general",
+      "checkpoint": 3000,
+      "frames": 124,
+      "group": "generalization"
+    },
+    {
+      "id": "actor-align78-048-s3000",
+      "sourceSuite": "actor-align78-steps",
+      "sourceCase": "case_048_0922--dual--s00004--f000000--general",
+      "checkpoint": 3000,
+      "frames": 124,
+      "group": "generalization"
+    },
+    {
+      "id": "actor-align78-052-s3000",
+      "sourceSuite": "actor-align78-steps",
+      "sourceCase": "case_052_0922--dual--s00008--f000000--general",
+      "checkpoint": 3000,
+      "frames": 124,
+      "group": "generalization"
+    },
+    {
+      "id": "actor-align78-055-s3000",
+      "sourceSuite": "actor-align78-steps",
+      "sourceCase": "case_055_0922--dual--s00011--f000000--general",
+      "checkpoint": 3000,
+      "frames": 124,
+      "group": "generalization"
+    },
+    {
+      "id": "actor-align78-059-s3000",
+      "sourceSuite": "actor-align78-steps",
+      "sourceCase": "case_059_0922--dual--s00052--f000000--general",
+      "checkpoint": 3000,
+      "frames": 124,
+      "group": "generalization"
+    },
+    {
+      "id": "actor-align78-066-s3000",
+      "sourceSuite": "actor-align78-steps",
+      "sourceCase": "case_066_0923--dual--s00011--f000000--general",
+      "checkpoint": 3000,
+      "frames": 124,
+      "group": "generalization"
+    },
+    {
+      "id": "actor-align78-072-s3000",
+      "sourceSuite": "actor-align78-steps",
+      "sourceCase": "case_072_0923--dual--s00094--f000000--general",
+      "checkpoint": 3000,
+      "frames": 124,
+      "group": "generalization"
+    },
+    {
+      "id": "actor-align78-073-s3000",
+      "sourceSuite": "actor-align78-steps",
+      "sourceCase": "case_073_0923--dual--s00023--f000000--general",
+      "checkpoint": 3000,
+      "frames": 124,
+      "group": "generalization"
+    },
+    {
+      "id": "actor-align78-075-s3000",
+      "sourceSuite": "actor-align78-steps",
+      "sourceCase": "case_075_ep3--dual--s00003--f000000--general",
+      "checkpoint": 3000,
+      "frames": 124,
+      "group": "generalization"
+    },
+    {
+      "id": "actor-align78-097-s3000",
+      "sourceSuite": "actor-align78-steps",
+      "sourceCase": "case_097_0916--dual--s00039--f000000--general",
+      "checkpoint": 3000,
+      "frames": 124,
+      "group": "generalization"
+    },
+    {
+      "id": "actor-align78-150-s3000",
+      "sourceSuite": "actor-align78-steps",
+      "sourceCase": "case_150_0922--dual--s00016--f000000--general",
+      "checkpoint": 3000,
+      "frames": 124,
+      "group": "generalization"
+    },
+    {
+      "id": "actor-align78-156-s3000",
+      "sourceSuite": "actor-align78-steps",
+      "sourceCase": "case_156_0922--dual--s00025--f000000--general",
+      "checkpoint": 3000,
+      "frames": 124,
+      "group": "generalization"
+    },
+    {
+      "id": "actor-align78-178-s3000",
+      "sourceSuite": "actor-align78-steps",
+      "sourceCase": "case_178_0923--dual--s00051--f000000--general",
+      "checkpoint": 3000,
+      "frames": 124,
+      "group": "generalization"
+    },
+    {
+      "id": "actor-align78-177-s3000",
+      "sourceSuite": "actor-align78-steps",
+      "sourceCase": "case_177_0923--dual--s00035--f000000--general",
+      "checkpoint": 3000,
+      "frames": 124,
+      "group": "generalization"
+    },
+    {
+      "id": "actor-align78-173-s3000",
+      "sourceSuite": "actor-align78-steps",
+      "sourceCase": "case_173_0923--dual--s00031--f000000--general",
+      "checkpoint": 3000,
+      "frames": 124,
+      "group": "generalization"
+    },
+    {
+      "id": "actor-align78-170-s3000",
+      "sourceSuite": "actor-align78-steps",
+      "sourceCase": "case_170_0923--dual--s00028--f000000--general",
+      "checkpoint": 3000,
+      "frames": 124,
+      "group": "generalization"
+    },
+    {
+      "id": "actor-align78-165-s3000",
+      "sourceSuite": "actor-align78-steps",
+      "sourceCase": "case_165_0923--dual--s00017--f000000--general",
+      "checkpoint": 3000,
+      "frames": 124,
+      "group": "generalization"
+    },
+    {
+      "id": "actor-align78-164-s3000",
+      "sourceSuite": "actor-align78-steps",
+      "sourceCase": "case_164_0922--dual--s00088--f000000--general",
+      "checkpoint": 3000,
+      "frames": 124,
+      "group": "generalization"
+    },
+    {
+      "id": "eval278-old-short-026-s3000",
+      "sourceSuite": "eval278-short-steps",
+      "sourceCase": "old_short--case_026_ep3--riding--t000008308",
+      "checkpoint": 3000,
+      "frames": 120,
+      "group": "generalization"
+    },
+    {
+      "id": "eval278-old-short-027-s3000",
+      "sourceSuite": "eval278-short-steps",
+      "sourceCase": "old_short--case_027_ep4--riding--t000013144",
+      "checkpoint": 3000,
+      "frames": 120,
+      "group": "generalization"
+    },
+    {
+      "id": "eval278-old-short-030-s3000",
+      "sourceSuite": "eval278-short-steps",
+      "sourceCase": "old_short--case_030_1008--riding--t000164796",
+      "checkpoint": 3000,
+      "frames": 120,
+      "group": "generalization"
+    }
+  ],
+  "long": [
+    {
+      "id": "action200-old-long-001-s4000",
+      "sourceSuite": "action200-long",
+      "sourceCase": "old_long--case_001_0917--riding--t000056296",
+      "checkpoint": 4000,
+      "frames": 1440,
+      "group": "riding"
+    },
+    {
+      "id": "action200-old-long-006-s4000",
+      "sourceSuite": "action200-long",
+      "sourceCase": "old_long--case_006_0916--riding--t000085560",
+      "checkpoint": 4000,
+      "frames": 1440,
+      "group": "riding"
+    },
+    {
+      "id": "action200-new-long-048-s4000",
+      "sourceSuite": "action200-long",
+      "sourceCase": "new_long--case_048_1008--exploration--t000183892",
+      "checkpoint": 4000,
+      "frames": 1440,
+      "group": "exploration"
+    },
+    {
+      "id": "action200-new-long-038-s4000",
+      "sourceSuite": "action200-long",
+      "sourceCase": "new_long--case_038_1008--interaction--t000201624",
+      "checkpoint": 4000,
+      "frames": 1440,
+      "group": "interaction"
+    },
+    {
+      "id": "action200-new-long-037-s4000",
+      "sourceSuite": "action200-long",
+      "sourceCase": "new_long--case_037_1008--interaction--t000187240",
+      "checkpoint": 4000,
+      "frames": 1440,
+      "group": "interaction"
+    },
+    {
+      "id": "action200-new-long-034-s4000",
+      "sourceSuite": "action200-long",
+      "sourceCase": "new_long--case_034_1008--interaction--t000151652",
+      "checkpoint": 4000,
+      "frames": 1440,
+      "group": "interaction"
+    },
+    {
+      "id": "action200-new-long-032-s4000",
+      "sourceSuite": "action200-long",
+      "sourceCase": "new_long--case_032_1007--interaction--t000118296",
+      "checkpoint": 4000,
+      "frames": 1440,
+      "group": "interaction"
+    },
+    {
+      "id": "action200-new-long-025-s4000",
+      "sourceSuite": "action200-long",
+      "sourceCase": "new_long--case_025_1007--interaction--t000057536",
+      "checkpoint": 4000,
+      "frames": 1440,
+      "group": "interaction"
+    },
+    {
+      "id": "action200-new-long-020-s4000",
+      "sourceSuite": "action200-long",
+      "sourceCase": "new_long--case_020_1009--riding--t000032860",
+      "checkpoint": 4000,
+      "frames": 1440,
+      "group": "riding"
+    },
+    {
+      "id": "action200-new-long-019-s4000",
+      "sourceSuite": "action200-long",
+      "sourceCase": "new_long--case_019_1009--riding--t000019964",
+      "checkpoint": 4000,
+      "frames": 1440,
+      "group": "riding"
+    },
+    {
+      "id": "action200-new-long-018-s4000",
+      "sourceSuite": "action200-long",
+      "sourceCase": "new_long--case_018_1009--riding--t000016740",
+      "checkpoint": 4000,
+      "frames": 1440,
+      "group": "riding"
+    },
+    {
+      "id": "action200-new-long-009-s4000",
+      "sourceSuite": "action200-long",
+      "sourceCase": "new_long--case_009_1008--riding--t000118048",
+      "checkpoint": 4000,
+      "frames": 1440,
+      "group": "riding"
+    }
+  ]
+}

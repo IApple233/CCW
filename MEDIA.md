@@ -1,6 +1,6 @@
 # Media provenance
 
-All demonstration and evaluation media was supplied by the CoCode-World project owner. The site contains browser-compatible derivatives of the source videos.
+All demonstration and evaluation media was supplied by the CoCode-World project owner. The gallery follows the owner's selected case IDs and checkpoints in the supplied `case` list. `scripts/gallery-selection.json` preserves that order without private local paths.
 
 ## Demonstration
 
@@ -8,28 +8,82 @@ Source filename: `GameWorld_Demo_Motion_Rollback_FlashVSR_v2.mp4`.
 
 The full 127-second demonstration is preserved, including audio and embedded GameWorld branding. The browser version is 1280×720 H.264/yuv420p at 24 fps with AAC audio and faststart. Its poster and social preview use the frame at 22 seconds.
 
-## 0921 generalization
+## Generalization results
 
-Source suite: `generalization_0921_30`, checkpoint **Step 5000**.
+The 32 short examples appear in the owner's order:
 
-Twenty-four selected source viewer indices: **1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 27, 28, 29, 30**.
+| Source viewer | Checkpoint | Count | Duration |
+| --- | --- | --- | --- |
+| `actor-gta300-steps` | Step 2000 | 10 | 124 frames / 24 fps (5.167 seconds) |
+| `actor-align78-steps` | Step 3000 | 19 | 124 frames / 24 fps (5.167 seconds) |
+| `eval278-short-steps` | Step 3000 | 3 | 120 frames / 24 fps (5 seconds) |
 
-Each generated/proxy pair retains the full 124-frame sequence at 24 fps (5.167 seconds) and its 1664×480 side-by-side layout. The full original sample ID and checkpoint are recorded in `assets/gallery.json`.
+The Short100 generated videos contain 120 frames. Their matching 124-frame proxy sources are limited to the same first 120 frames to keep playback aligned; no generated frames are discarded.
 
-## Long Event50
+## Complete 60-second sequences
 
-Source suite: `long_event50/viewer_60s`, checkpoint **Step 2000**.
+Source viewer: `action200-long`, checkpoint **Step 4000**. All 12 examples retain 1,440 frames at 24 fps, with six riding, five interaction, and one exploration sequence. Category buttons preserve the relative order of the owner's selection.
 
-| Category | Source case indices | Duration per example |
-| --- | --- | --- |
-| Riding / 骑乘 | 1, 2, 6, 9, 13, 14 | 60 seconds |
-| Interaction / 交互 | 22, 27, 30, 32, 33, 38 | 60 seconds |
-| Exploration / 探索 | 41, 42, 43, 44, 46, 48 | 60 seconds |
+## Selected source IDs
 
-All eighteen examples preserve the complete 1,440-frame sequence at 24 fps. Their paired generated/proxy videos are resized proportionally from 2560×720 to 1600×450.
+### actor-gta300-steps · Step 2000
+
+- `gta300_v1_011`
+- `gta300_v1_016`
+- `gta300_v1_018`
+- `gta300_v1_020`
+- `gta300_v1_030`
+- `gta300_v1_031`
+- `gta300_v1_033`
+- `gta300_v1_034`
+- `gta300_v1_036`
+- `gta300_v1_044`
+
+### actor-align78-steps · Step 3000
+
+- `case_033_09182--dual--s00022--f000000--general`
+- `case_047_0922--dual--s00001--f000000--general`
+- `case_048_0922--dual--s00004--f000000--general`
+- `case_052_0922--dual--s00008--f000000--general`
+- `case_055_0922--dual--s00011--f000000--general`
+- `case_059_0922--dual--s00052--f000000--general`
+- `case_066_0923--dual--s00011--f000000--general`
+- `case_072_0923--dual--s00094--f000000--general`
+- `case_073_0923--dual--s00023--f000000--general`
+- `case_075_ep3--dual--s00003--f000000--general`
+- `case_097_0916--dual--s00039--f000000--general`
+- `case_150_0922--dual--s00016--f000000--general`
+- `case_156_0922--dual--s00025--f000000--general`
+- `case_178_0923--dual--s00051--f000000--general`
+- `case_177_0923--dual--s00035--f000000--general`
+- `case_173_0923--dual--s00031--f000000--general`
+- `case_170_0923--dual--s00028--f000000--general`
+- `case_165_0923--dual--s00017--f000000--general`
+- `case_164_0922--dual--s00088--f000000--general`
+
+### eval278-short-steps · Step 3000
+
+- `old_short--case_026_ep3--riding--t000008308`
+- `old_short--case_027_ep4--riding--t000013144`
+- `old_short--case_030_1008--riding--t000164796`
+
+### action200-long · Step 4000
+
+- `old_long--case_001_0917--riding--t000056296`
+- `old_long--case_006_0916--riding--t000085560`
+- `new_long--case_048_1008--exploration--t000183892`
+- `new_long--case_038_1008--interaction--t000201624`
+- `new_long--case_037_1008--interaction--t000187240`
+- `new_long--case_034_1008--interaction--t000151652`
+- `new_long--case_032_1007--interaction--t000118296`
+- `new_long--case_025_1007--interaction--t000057536`
+- `new_long--case_020_1009--riding--t000032860`
+- `new_long--case_019_1009--riding--t000019964`
+- `new_long--case_018_1009--riding--t000016740`
+- `new_long--case_009_1008--riding--t000118048`
 
 ## Web encoding
 
-Gallery videos use H.264/yuv420p, CRF 24, a 2000 kbit/s maximum video rate, faststart, and no audio. Posters use the frame at 2 seconds; thumbnails show Player A. The interface uses the source aspect ratio, crops the two player halves into separate panels, and synchronizes generated and proxy playback.
+Gallery videos are resized proportionally from 2560×720 to 1600×450. They use H.264/yuv420p, CRF 24, a 2000 kbit/s maximum video rate, faststart, and no audio. Posters use the frame at 2 seconds; thumbnails show Player A. The interface crops the two player halves into separate panels and synchronizes generated and proxy playback.
 
 The abstract and reported metrics are taken from the supplied project brief. Author, paper, and code links are omitted until provided by the project owner.

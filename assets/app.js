@@ -48,6 +48,11 @@ class Gallery {
       this.renderSelector();
       this.select(0);
     }));
+    root.querySelectorAll('[data-category]').forEach((button) => {
+      const count = this.entries.filter((entry) => entry.group === button.dataset.category).length;
+      const label = button.querySelector('span');
+      label.textContent = `${label.textContent.split(' · ')[0]} · ${count}`;
+    });
     this.views.querySelectorAll('.compare-viewport').forEach((viewport) => {
       let dragging = false;
       const move = (event) => {

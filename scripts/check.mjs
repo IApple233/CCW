@@ -8,14 +8,20 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const html = await readFile(path.join(root, 'index.html'), 'utf8');
 const css = await readFile(path.join(root, 'assets/style.css'), 'utf8');
 const gallery = JSON.parse(await readFile(path.join(root, 'assets/gallery.json'), 'utf8'));
+const selection = JSON.parse(await readFile(path.join(root, 'scripts/gallery-selection.json'), 'utf8'));
 const assets = new Set([...html.matchAll(/(?:src|href|poster)="([^"#][^"]*)"/g)].map((m) => m[1]).filter((s) => !/^https?:/.test(s)));
 for (const match of css.matchAll(/url\("([^"]+)"\)/g)) assets.add(`assets/${match[1]}`);
-assert.equal(gallery.short.length, 24, 'Exactly 24 short examples are required');
-assert.equal(gallery.long.length, 18, 'Exactly 18 long examples are required');
-assert(gallery.short.every((item) => item.checkpoint === 5000 && Math.abs(item.duration - 124 / 24) < 0.01), 'Short examples must use Step 5000 and retain 124 frames');
-assert(gallery.long.every((item) => item.duration === 60), 'Long examples must be complete 60-second videos');
-for (const group of ['riding', 'interaction', 'exploration']) {
-  assert.equal(gallery.long.filter((item) => item.group === group).length, 6, `Six ${group} examples are required`);
+for (const collection of ['short', 'long']) {
+  assert.deepEqual(gallery[collection].map(({ id, sourceSuite, sourceCase, checkpoint, frames, group }) =>
+    ({ id, sourceSuite, sourceCase, checkpoint, frames, group })), selection[collection],
+  `${collection} examples must match the owner's selected cases, order, checkpoints, and frame counts`);
+}
+assert.equal(gallery.short.length, 32, 'Exactly 32 selected short examples are required');
+assert.equal(gallery.long.length, 12, 'Exactly 12 selected long examples are required');
+assert(gallery.short.every((item) => [120, 124].includes(item.frames) && Math.abs(item.duration - item.frames / 24) < 0.01), 'Short clips must retain the selected sequence length');
+assert(gallery.long.every((item) => item.duration === 60 && item.frames === 1440 && item.checkpoint === 4000), 'Long clips must preserve all 60 seconds from Step 4000');
+for (const [group, count] of Object.entries({ riding: 6, interaction: 5, exploration: 1 })) {
+  assert.equal(gallery.long.filter((item) => item.group === group).length, count, `Incorrect ${group} selection`);
 }
 const examples = [...gallery.short, ...gallery.long];
 const ids = new Set();
