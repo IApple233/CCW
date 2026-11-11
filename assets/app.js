@@ -1,3 +1,5 @@
+import { shortPageSizes } from './gallery-layout.js';
+
 // Register the handler without prefetching any videos.
 const mediaCacheReady = Promise.race([(async () => {
   if (!('serviceWorker' in navigator) || !window.isSecureContext) return;
@@ -324,11 +326,12 @@ class SceneCard {
   }
 }
 
-function renderPagination(root, cards, pageSize) {
+function renderPagination(root, cards, pageSizes) {
   const navigation = root.querySelector('.collection-pagination');
-  if (!navigation || cards.length <= pageSize) return;
+  if (!navigation || pageSizes.length <= 1) return;
 
-  const totalPages = Math.ceil(cards.length / pageSize);
+  const totalPages = pageSizes.length;
+  const pageStarts = pageSizes.map((_, index) => pageSizes.slice(0, index).reduce((sum, size) => sum + size, 0));
   const previous = element('button', 'pagination-arrow', '←');
   previous.type = 'button';
   previous.setAttribute('aria-label', 'Show previous short video page');
@@ -357,7 +360,7 @@ function renderPagination(root, cards, pageSize) {
     currentPage = nextPage;
     if (activeCard && cards.includes(activeCard)) activeCard.release();
     cards.forEach((card, index) => {
-      card.root.hidden = index < currentPage * pageSize || index >= (currentPage + 1) * pageSize;
+      card.root.hidden = index < pageStarts[currentPage] || index >= pageStarts[currentPage] + pageSizes[currentPage];
     });
     previous.disabled = currentPage === 0;
     next.disabled = currentPage === totalPages - 1;
@@ -390,7 +393,7 @@ async function initialize() {
       cards.forEach((card) => fragment.append(card.root));
       grid.replaceChildren(fragment);
       grid.setAttribute('aria-busy', 'false');
-      renderPagination(root, cards, root.dataset.collection === 'short' ? 16 : cards.length);
+      renderPagination(root, cards, root.dataset.collection === 'short' ? shortPageSizes(cards.length) : [cards.length]);
     });
   } catch {
     document.querySelectorAll('[data-collection]').forEach((root) => {

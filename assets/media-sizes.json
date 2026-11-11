@@ -7,6 +7,14 @@
     "size": 12530745,
     "revision": "25e267c3f9bb95d1"
   },
+  "assets/media/collections/action200-new-long-014-s2000-generated.mp4": {
+    "size": 14619892,
+    "revision": "e8b0b99bfac2f3e4"
+  },
+  "assets/media/collections/action200-new-long-014-s2000-proxy.mp4": {
+    "size": 9129970,
+    "revision": "9db1fbee40128642"
+  },
   "assets/media/collections/action200-new-long-018-s4000-generated.mp4": {
     "size": 15211166,
     "revision": "6d841831aed36770"
@@ -30,6 +38,22 @@
   "assets/media/collections/action200-new-long-020-s4000-proxy.mp4": {
     "size": 5947029,
     "revision": "7e3783c27fe85afc"
+  },
+  "assets/media/collections/action200-new-long-021-s4000-generated.mp4": {
+    "size": 14359197,
+    "revision": "4b4797bfcd5dce21"
+  },
+  "assets/media/collections/action200-new-long-021-s4000-proxy.mp4": {
+    "size": 6786164,
+    "revision": "e87cb0cd9248cfb6"
+  },
+  "assets/media/collections/action200-new-long-023-s4000-generated.mp4": {
+    "size": 14864878,
+    "revision": "d0bbec90acd8b90b"
+  },
+  "assets/media/collections/action200-new-long-023-s4000-proxy.mp4": {
+    "size": 6524559,
+    "revision": "3bc350f73b9d5e6b"
   },
   "assets/media/collections/action200-new-long-025-s4000-generated.mp4": {
     "size": 15206460,
@@ -71,6 +95,14 @@
     "size": 7812646,
     "revision": "1af82b4b01c2892e"
   },
+  "assets/media/collections/action200-new-long-044-s4000-generated.mp4": {
+    "size": 15200970,
+    "revision": "b79ee9a46e817c7a"
+  },
+  "assets/media/collections/action200-new-long-044-s4000-proxy.mp4": {
+    "size": 8031690,
+    "revision": "44e08d439e878c01"
+  },
   "assets/media/collections/action200-new-long-048-s4000-generated.mp4": {
     "size": 15216670,
     "revision": "b7d08f1cd3fb2a75"
@@ -78,6 +110,22 @@
   "assets/media/collections/action200-new-long-048-s4000-proxy.mp4": {
     "size": 7282955,
     "revision": "de31f1ea543b8d40"
+  },
+  "assets/media/collections/action200-new-short-005-s2000-generated.mp4": {
+    "size": 1406221,
+    "revision": "62e4fdfc8873960b"
+  },
+  "assets/media/collections/action200-new-short-005-s2000-proxy.mp4": {
+    "size": 470233,
+    "revision": "ce6fac3db22829cd"
+  },
+  "assets/media/collections/action200-new-short-011-s2000-generated.mp4": {
+    "size": 1479850,
+    "revision": "c4fd3395d2e1d44e"
+  },
+  "assets/media/collections/action200-new-short-011-s2000-proxy.mp4": {
+    "size": 606992,
+    "revision": "e93c16251ecca770"
   },
   "assets/media/collections/action200-old-long-001-s4000-generated.mp4": {
     "size": 15212920,
@@ -94,6 +142,30 @@
   "assets/media/collections/action200-old-long-006-s4000-proxy.mp4": {
     "size": 10051984,
     "revision": "e407968356027595"
+  },
+  "assets/media/collections/action200-old-long-043-s2000-generated.mp4": {
+    "size": 15099968,
+    "revision": "8d3e2e69267d5cfc"
+  },
+  "assets/media/collections/action200-old-long-043-s2000-proxy.mp4": {
+    "size": 7643235,
+    "revision": "f37fe56c21c8df41"
+  },
+  "assets/media/collections/action200-old-long-048-s2000-generated.mp4": {
+    "size": 14912706,
+    "revision": "d3260c380022e755"
+  },
+  "assets/media/collections/action200-old-long-048-s2000-proxy.mp4": {
+    "size": 10163107,
+    "revision": "4ce0512dac4c7e22"
+  },
+  "assets/media/collections/action200-old-short-015-s2000-generated.mp4": {
+    "size": 1474713,
+    "revision": "ab8c8c0782b5b1eb"
+  },
+  "assets/media/collections/action200-old-short-015-s2000-proxy.mp4": {
+    "size": 685321,
+    "revision": "82d08558aa4f81f2"
   },
   "assets/media/collections/actor-align78-033-s3000-generated.mp4": {
     "size": 1479455,
@@ -327,6 +399,14 @@
     "size": 411186,
     "revision": "4676e57b392b19df"
   },
+  "assets/media/collections/actorcons-gta300-057-s2500-promptv2-generated.mp4": {
+    "size": 1371258,
+    "revision": "b720077b05c3ec42"
+  },
+  "assets/media/collections/actorcons-gta300-057-s2500-promptv2-proxy.mp4": {
+    "size": 763193,
+    "revision": "4cde2f86a52a59a1"
+  },
   "assets/media/collections/eval278-old-short-026-s3000-generated.mp4": {
     "size": 1435728,
     "revision": "cbd0d34f0154feac"
@@ -350,6 +430,22 @@
   "assets/media/collections/eval278-old-short-030-s3000-proxy.mp4": {
     "size": 848899,
     "revision": "05e5e45dcfffc514"
+  },
+  "assets/media/collections/gta556-case102-s4000-seed0-generated.mp4": {
+    "size": 1460348,
+    "revision": "6c24586d9af21dde"
+  },
+  "assets/media/collections/gta556-case102-s4000-seed0-proxy.mp4": {
+    "size": 853317,
+    "revision": "08ffa99b388c525e"
+  },
+  "assets/media/collections/gta556-case160-s4000-seed0-generated.mp4": {
+    "size": 773754,
+    "revision": "4086b3bc716b656f"
+  },
+  "assets/media/collections/gta556-case160-s4000-seed0-proxy.mp4": {
+    "size": 552107,
+    "revision": "42c11edb90fc369a"
   },
   "assets/media/demo.mp4": {
     "size": 22303530,

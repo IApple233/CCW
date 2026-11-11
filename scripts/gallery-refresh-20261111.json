@@ -1,0 +1,494 @@
+{
+  "date": "2026-11-11",
+  "shortPageSizes": [
+    15,
+    18
+  ],
+  "longCount": 15,
+  "removedShortTitles": [
+    "Over the snow",
+    "Through the turn",
+    "Past the wall",
+    "At the entrance",
+    "Beside the road"
+  ],
+  "removedLongTitles": [
+    "Across the field",
+    "Road at dusk",
+    "Under the bridge"
+  ],
+  "temporaryFillers": [
+    "actor-align78-072-s3000"
+  ],
+  "longLeadingTitles": [
+    "A quiet rest",
+    "Ride through the city"
+  ],
+  "duplicateRetained": "action200-new-long-037-s4000",
+  "conflictingSelection": {
+    "id": "action200-new-long-032-s4000",
+    "decision": "excluded",
+    "reason": "Also explicitly listed as unsatisfactory: Across the field."
+  },
+  "seedAssumption": "Seed0 for the two page-27 cases; no seed specified.",
+  "sources": [
+    {
+      "id": "gta556-case102-s4000-seed0",
+      "kind": "generated",
+      "sha256": "b732d3f15883bb57ad67c0ed6820f1a258033956382f9a1edd80326ac1b7d036",
+      "bytes": 30729639,
+      "width": 2560,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "duration": "5.166667",
+      "nb_frames": "124"
+    },
+    {
+      "id": "gta556-case102-s4000-seed0",
+      "kind": "proxy",
+      "sha256": "9757ddc54dbe5d940d193f1e093e74b86d710f8240e2614237d72cf8b3993977",
+      "bytes": 3509854,
+      "width": 2560,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "duration": "5.166667",
+      "nb_frames": "124"
+    },
+    {
+      "id": "gta556-case160-s4000-seed0",
+      "kind": "generated",
+      "sha256": "319d97d59dec0d9ace4e2feb49ce82a129a330b69aa0d3714b57ab9e4c92650e",
+      "bytes": 16090741,
+      "width": 2560,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "duration": "5.166667",
+      "nb_frames": "124"
+    },
+    {
+      "id": "gta556-case160-s4000-seed0",
+      "kind": "proxy",
+      "sha256": "04d05453158accbb6b64fc44893a6024d95eced51bc9bab6727a03ede78f25fb",
+      "bytes": 2147714,
+      "width": 2560,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "duration": "5.166667",
+      "nb_frames": "124"
+    },
+    {
+      "id": "action200-old-short-015-s2000",
+      "kind": "generated",
+      "sha256": "0b7c0ce1df8fe87c9f8d0ff5b39288e1b20b88eb6e2b3290a50247ef1432d5ee",
+      "bytes": 39731789,
+      "width": 2560,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "duration": "5.166667",
+      "nb_frames": "124"
+    },
+    {
+      "id": "action200-old-short-015-s2000",
+      "kind": "proxy",
+      "sha256": "f3c1c3f3cb782ec60988569543d5e6aa6d2e5ad0c316ff34bcb005148b6cf6ff",
+      "bytes": 2801515,
+      "width": 2560,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "duration": "5.166667",
+      "nb_frames": "124"
+    },
+    {
+      "id": "action200-new-short-005-s2000",
+      "kind": "generated",
+      "sha256": "ad717f640b878613f28d97e467c0c2579af9b1a8e8c40acc42d255792bf16f32",
+      "bytes": 30208115,
+      "width": 2560,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "duration": "5.166667",
+      "nb_frames": "124"
+    },
+    {
+      "id": "action200-new-short-005-s2000",
+      "kind": "proxy",
+      "sha256": "b19970dd29a7618411e9470fa850ec028f10b210013eddd1efe42e234f51c3fd",
+      "bytes": 1831979,
+      "width": 2560,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "duration": "5.166667",
+      "nb_frames": "124"
+    },
+    {
+      "id": "action200-new-short-011-s2000",
+      "kind": "generated",
+      "sha256": "4647ca046613545421fbc2d17b2c6ed6dc7fb844215c61b5edf910889c7404f4",
+      "bytes": 44820926,
+      "width": 2560,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "duration": "5.166667",
+      "nb_frames": "124"
+    },
+    {
+      "id": "action200-new-short-011-s2000",
+      "kind": "proxy",
+      "sha256": "48d597c7972e451024bf33fe982f9683b8b798496bd53d6502e9b72411045676",
+      "bytes": 2500380,
+      "width": 2560,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "duration": "5.166667",
+      "nb_frames": "124"
+    },
+    {
+      "id": "actorcons-gta300-057-s2500-promptv2",
+      "kind": "generated",
+      "sha256": "8a2951d97e2b74b29b24fe97ed3a3fea6b6c8add0147dc3f3ee3e2a9d52c42a1",
+      "bytes": 178576539,
+      "width": 2560,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "duration": "30.000000",
+      "nb_frames": "720"
+    },
+    {
+      "id": "actorcons-gta300-057-s2500-promptv2",
+      "kind": "proxy",
+      "sha256": "82d98fffa930e5833d39f4d1c7d3488bb18890fb2908574a5529bd6f3ae6b8e8",
+      "bytes": 42896561,
+      "width": 2560,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "duration": "60.000000",
+      "nb_frames": "1440"
+    },
+    {
+      "id": "action200-old-long-043-s2000",
+      "kind": "generated",
+      "sha256": "183486dbb171a3bcfe77b2797c415cde615b2d96ed360631fdd35beceae4a90d",
+      "bytes": 317414927,
+      "width": 2560,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "duration": "60.000000",
+      "nb_frames": "1440"
+    },
+    {
+      "id": "action200-old-long-043-s2000",
+      "kind": "proxy",
+      "sha256": "effdc72039e9a4bb67f756f34492381c6412dd628e180225955bd0fbafaceae8",
+      "bytes": 28305594,
+      "width": 2560,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "duration": "60.000000",
+      "nb_frames": "1440"
+    },
+    {
+      "id": "action200-old-long-048-s2000",
+      "kind": "generated",
+      "sha256": "80e39e734a3672683cfe6295fabf3e7baf4c08f569dbcd8b8dbb89fac02bb07c",
+      "bytes": 311175283,
+      "width": 2560,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "duration": "60.000000",
+      "nb_frames": "1440"
+    },
+    {
+      "id": "action200-old-long-048-s2000",
+      "kind": "proxy",
+      "sha256": "aa21b46ba733020ece37ebaa0c903cf864f410f4f22053526b1edd112af7e4dd",
+      "bytes": 36000050,
+      "width": 2560,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "duration": "60.000000",
+      "nb_frames": "1440"
+    },
+    {
+      "id": "action200-new-long-014-s2000",
+      "kind": "generated",
+      "sha256": "4b5bb760e1f93805995385f438ee98f57c6ad7e10e5b15f2f3645d57750c368b",
+      "bytes": 254226383,
+      "width": 2560,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "duration": "60.000000",
+      "nb_frames": "1440"
+    },
+    {
+      "id": "action200-new-long-014-s2000",
+      "kind": "proxy",
+      "sha256": "b7ba8952ae2e932286cf15921392c11a55dd9a6ddf719059c81b0ff4f5221254",
+      "bytes": 32033428,
+      "width": 2560,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "duration": "60.000000",
+      "nb_frames": "1440"
+    },
+    {
+      "id": "action200-new-long-021-s4000",
+      "kind": "generated",
+      "sha256": "ca495853bda698b8adcc120fa21571735dc03203e27c4a094348edb7bab4b860",
+      "bytes": 508574359,
+      "width": 2560,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "duration": "60.000000",
+      "nb_frames": "1440"
+    },
+    {
+      "id": "action200-new-long-021-s4000",
+      "kind": "proxy",
+      "sha256": "6402e8bb509c77f8323085fcddfe7f10ea6cb50f6e37d084a5aa9c5e6e54c1d2",
+      "bytes": 23440029,
+      "width": 2560,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "duration": "60.000000",
+      "nb_frames": "1440"
+    },
+    {
+      "id": "action200-new-long-023-s4000",
+      "kind": "generated",
+      "sha256": "96794ee924a3deec44f2c0de4b08968d36ba0e2bc3ab1c010b1ce3043d931a4c",
+      "bytes": 304426986,
+      "width": 2560,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "duration": "60.000000",
+      "nb_frames": "1440"
+    },
+    {
+      "id": "action200-new-long-023-s4000",
+      "kind": "proxy",
+      "sha256": "ee0651af9dce03f0ff5ea018d14e9302897b7e65ba74efb8ce689dcc427410ee",
+      "bytes": 25155514,
+      "width": 2560,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "duration": "60.000000",
+      "nb_frames": "1440"
+    },
+    {
+      "id": "action200-new-long-044-s4000",
+      "kind": "generated",
+      "sha256": "a4ae4e9b32a61c8e97649a6865d2e40f5cf412ed91d7dba91e798d7a08884a6e",
+      "bytes": 411362529,
+      "width": 2560,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "duration": "60.000000",
+      "nb_frames": "1440"
+    },
+    {
+      "id": "action200-new-long-044-s4000",
+      "kind": "proxy",
+      "sha256": "a4f2cd9afe993f2a523d3c6619ad2489044e972c3ea548c04c0b4c027efa6aa2",
+      "bytes": 27216852,
+      "width": 2560,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "duration": "60.000000",
+      "nb_frames": "1440"
+    }
+  ],
+  "encoded": [
+    {
+      "id": "gta556-case102-s4000-seed0",
+      "kind": "generated",
+      "frames": 124,
+      "duration": 5.166667,
+      "bytes": 1460348,
+      "sha256": "6c24586d9af21dde6a6d9bb253f60f14ab97283e5df7b4624d4c534f159a65da"
+    },
+    {
+      "id": "gta556-case102-s4000-seed0",
+      "kind": "proxy",
+      "frames": 124,
+      "duration": 5.166667,
+      "bytes": 853317,
+      "sha256": "08ffa99b388c525e88abad64066aa772cbbd9568d5e9a85e4f9d051faca980e1"
+    },
+    {
+      "id": "gta556-case160-s4000-seed0",
+      "kind": "generated",
+      "frames": 124,
+      "duration": 5.166667,
+      "bytes": 773754,
+      "sha256": "4086b3bc716b656fecb126f37717aeaaae3b59daca6b0166ad3a77cf23622ead"
+    },
+    {
+      "id": "gta556-case160-s4000-seed0",
+      "kind": "proxy",
+      "frames": 124,
+      "duration": 5.166667,
+      "bytes": 552107,
+      "sha256": "42c11edb90fc369a80dca160c8c6ca11c455251e43cfb15a989e2483943fd521"
+    },
+    {
+      "id": "action200-old-short-015-s2000",
+      "kind": "generated",
+      "frames": 124,
+      "duration": 5.166667,
+      "bytes": 1474713,
+      "sha256": "ab8c8c0782b5b1eb6d37ca3d8ffbd436740d4ea46436ce798591d8165492a708"
+    },
+    {
+      "id": "action200-old-short-015-s2000",
+      "kind": "proxy",
+      "frames": 124,
+      "duration": 5.166667,
+      "bytes": 685321,
+      "sha256": "82d08558aa4f81f23f4e1c4de46c6c44c601d490095b3e57449e4a1485c25f6a"
+    },
+    {
+      "id": "action200-new-short-005-s2000",
+      "kind": "generated",
+      "frames": 124,
+      "duration": 5.166667,
+      "bytes": 1406221,
+      "sha256": "62e4fdfc8873960b6d58e9969a0e79a6bac28d18049da8c9dc17a5d01b55e5fc"
+    },
+    {
+      "id": "action200-new-short-005-s2000",
+      "kind": "proxy",
+      "frames": 124,
+      "duration": 5.166667,
+      "bytes": 470233,
+      "sha256": "ce6fac3db22829cdf40dafb8ef80269043b52e20c62baa9777f25e93c03271fa"
+    },
+    {
+      "id": "action200-new-short-011-s2000",
+      "kind": "generated",
+      "frames": 124,
+      "duration": 5.166667,
+      "bytes": 1479850,
+      "sha256": "c4fd3395d2e1d44e22c6cd7ecdec53f7684f1d39f4c6290b98ff5f347dd65831"
+    },
+    {
+      "id": "action200-new-short-011-s2000",
+      "kind": "proxy",
+      "frames": 124,
+      "duration": 5.166667,
+      "bytes": 606992,
+      "sha256": "e93c16251ecca77005cbfc020b61103833d2911be16e547553f03fa87fd5cf05"
+    },
+    {
+      "id": "actorcons-gta300-057-s2500-promptv2",
+      "kind": "generated",
+      "frames": 124,
+      "duration": 5.166667,
+      "bytes": 1371258,
+      "sha256": "b720077b05c3ec42b2bcc3b70d23936e803fb6f81463b39f3aebfe23dd3ae7d6"
+    },
+    {
+      "id": "actorcons-gta300-057-s2500-promptv2",
+      "kind": "proxy",
+      "frames": 124,
+      "duration": 5.166667,
+      "bytes": 763193,
+      "sha256": "4cde2f86a52a59a135ba73df40f96cb3cceca1108418a399122c9b780330b108"
+    },
+    {
+      "id": "action200-old-long-043-s2000",
+      "kind": "generated",
+      "frames": 1440,
+      "duration": 60.0,
+      "bytes": 15099968,
+      "sha256": "8d3e2e69267d5cfcb2abb91bb6426b8b8de2be71f39461dea56896d49ab42344"
+    },
+    {
+      "id": "action200-old-long-043-s2000",
+      "kind": "proxy",
+      "frames": 1440,
+      "duration": 60.0,
+      "bytes": 7643235,
+      "sha256": "f37fe56c21c8df41ef1168e2f28a8ea5e164132ac0e5f3966d43ec108aedfb58"
+    },
+    {
+      "id": "action200-old-long-048-s2000",
+      "kind": "generated",
+      "frames": 1440,
+      "duration": 60.0,
+      "bytes": 14912706,
+      "sha256": "d3260c380022e75575e5ddefe24a7aef90ff4f58e9991b9f62b84fd15674a5a0"
+    },
+    {
+      "id": "action200-old-long-048-s2000",
+      "kind": "proxy",
+      "frames": 1440,
+      "duration": 60.0,
+      "bytes": 10163107,
+      "sha256": "4ce0512dac4c7e22eb62d5926d101e32459c1b43e0513455ec3333ab52c86e64"
+    },
+    {
+      "id": "action200-new-long-014-s2000",
+      "kind": "generated",
+      "frames": 1440,
+      "duration": 60.0,
+      "bytes": 14619892,
+      "sha256": "e8b0b99bfac2f3e436a82ecb73447f327ce84881147688d7b046951d2769f084"
+    },
+    {
+      "id": "action200-new-long-014-s2000",
+      "kind": "proxy",
+      "frames": 1440,
+      "duration": 60.0,
+      "bytes": 9129970,
+      "sha256": "9db1fbee40128642e22730ce951f9f61687ea16d0e796f17cb83d530a53fd313"
+    },
+    {
+      "id": "action200-new-long-021-s4000",
+      "kind": "generated",
+      "frames": 1440,
+      "duration": 60.0,
+      "bytes": 14359197,
+      "sha256": "4b4797bfcd5dce21a4aa4edefd773af2ca1a8153148266f30fcbb9c6cca01f80"
+    },
+    {
+      "id": "action200-new-long-021-s4000",
+      "kind": "proxy",
+      "frames": 1440,
+      "duration": 60.0,
+      "bytes": 6786164,
+      "sha256": "e87cb0cd9248cfb6252d0ce21b93820777d2a08fdd07cbbc53003470eefbd025"
+    },
+    {
+      "id": "action200-new-long-023-s4000",
+      "kind": "generated",
+      "frames": 1440,
+      "duration": 60.0,
+      "bytes": 14864878,
+      "sha256": "d0bbec90acd8b90b446ebeb739ca9fe337ecbd43369ef447f9876151c14b84d9"
+    },
+    {
+      "id": "action200-new-long-023-s4000",
+      "kind": "proxy",
+      "frames": 1440,
+      "duration": 60.0,
+      "bytes": 6524559,
+      "sha256": "3bc350f73b9d5e6bdfb87f604e42ee157dc8e3f59de7e51c6f3186e00e5e930e"
+    },
+    {
+      "id": "action200-new-long-044-s4000",
+      "kind": "generated",
+      "frames": 1440,
+      "duration": 60.0,
+      "bytes": 15200970,
+      "sha256": "b79ee9a46e817c7a15cdbd58a8eb7b06babbf78a24799235aaa818acd82fa4a7"
+    },
+    {
+      "id": "action200-new-long-044-s4000",
+      "kind": "proxy",
+      "frames": 1440,
+      "duration": 60.0,
+      "bytes": 8031690,
+      "sha256": "44e08d439e878c01aedade3dec6e70a1618fbb0c9446839dd6864b7e35629bd3"
+    }
+  ]
+}
