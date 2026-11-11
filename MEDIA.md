@@ -23,9 +23,9 @@ The five explicitly rejected short cases are excluded. The sixth preferred repla
 
 ## Long gallery
 
-15 complete 60-second sequences, each with 1,440 frames at 24 fps. `A quiet rest` is first and `Ride through the city` second. The source checkpoints are preserved case by case, including the three newly requested Step2000 sequences.
+18 complete 60-second sequences, each with 1,440 frames at 24 fps. `A quiet rest` is first and `Ride through the city` second. The source checkpoints are preserved case by case, including the three newly requested Step2000 sequences.
 
-`Across the field` is excluded because it was explicitly listed as unsatisfactory, although the same source/checkpoint was also repeated among candidates (page 20, case 82). Page 20 case 87 is already `Blue water tanks` and is retained once. `Road at dusk` and `Under the bridge` are replaced.
+All eight supplied long case/checkpoint entries are used directly, per the owner clarification. Page 20 cases 82 and 87 (Step4000) are freshly imported from their specified original videos and replace their former entries. `Road at dusk` and `Under the bridge` are retained at the end as temporary fillers, completing six desktop rows of three.
 
 ## Web encoding
 
@@ -73,7 +73,7 @@ Generated and proxy videos are encoded from hash-verified original 2560×720 fil
 | long | Across the desert | `old_long--case_006_0916--riding--t000085560` | 4000 | 1440 |
 | long | Village stop | `new_long--case_048_1008--exploration--t000183892` | 4000 | 1440 |
 | long | Moonlit meeting | `new_long--case_038_1008--interaction--t000201624` | 4000 | 1440 |
-| long | Blue water tanks | `new_long--case_037_1008--interaction--t000187240` | 4000 | 1440 |
+| long | Blue water tanks | `new_long--case_037_1008--interaction--t000187240` | 4000 / step-004000 | 1440 |
 | long | Through the neighborhood | `old_long--case_043_0922--exploration--t000101804` | 2000 / step-002000 | 1440 |
 | long | Seaside pier | `new_long--case_025_1007--interaction--t000057536` | 4000 | 1440 |
 | long | Along the water | `new_long--case_020_1009--riding--t000032860` | 4000 | 1440 |
@@ -82,4 +82,7 @@ Generated and proxy videos are encoded from hash-verified original 2560×720 fil
 | long | Blue-and-gold square | `old_long--case_048_0917--exploration--t000039060` | 2000 / step-002000 | 1440 |
 | long | Beyond the garden fence | `new_long--case_021_1006--interaction--t000016120` | 4000 / step-004000 | 1440 |
 | long | Beside the hillside home | `new_long--case_023_1007--interaction--t000039060` | 4000 / step-004000 | 1440 |
+| long | Across the field | `new_long--case_032_1007--interaction--t000118296` | 4000 / step-004000 | 1440 |
 | long | From beach to boulevard | `new_long--case_044_1007--exploration--t000091760` | 4000 / step-004000 | 1440 |
+| long | Road at dusk | `new_long--case_009_1008--riding--t000118048` | 4000 | 1440 |
+| long | Under the bridge | `new_long--case_019_1009--riding--t000019964` | 4000 | 1440 |

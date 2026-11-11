@@ -4,18 +4,13 @@
     15,
     18
   ],
-  "longCount": 15,
+  "longCount": 18,
   "removedShortTitles": [
     "Over the snow",
     "Through the turn",
     "Past the wall",
     "At the entrance",
     "Beside the road"
-  ],
-  "removedLongTitles": [
-    "Across the field",
-    "Road at dusk",
-    "Under the bridge"
   ],
   "temporaryFillers": [
     "actor-align78-072-s3000"
@@ -24,12 +19,6 @@
     "A quiet rest",
     "Ride through the city"
   ],
-  "duplicateRetained": "action200-new-long-037-s4000",
-  "conflictingSelection": {
-    "id": "action200-new-long-032-s4000",
-    "decision": "excluded",
-    "reason": "Also explicitly listed as unsatisfactory: Across the field."
-  },
   "seedAssumption": "Seed0 for the two page-27 cases; no seed specified.",
   "sources": [
     {
@@ -295,6 +284,50 @@
       "r_frame_rate": "24/1",
       "duration": "60.000000",
       "nb_frames": "1440"
+    },
+    {
+      "id": "action200-new-long-032-s4000-refresh",
+      "kind": "generated",
+      "sha256": "745680c753de6f8191288705b27fc29c2800feb6d3edcdd46545055654c17402",
+      "bytes": 314703636,
+      "width": 2560,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "duration": "60.000000",
+      "nb_frames": "1440"
+    },
+    {
+      "id": "action200-new-long-032-s4000-refresh",
+      "kind": "proxy",
+      "sha256": "2ee1b38b132aed43ee67598b6c24b1c13ad93737b7816c1df8207479b24075d3",
+      "bytes": 26791409,
+      "width": 2560,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "duration": "60.000000",
+      "nb_frames": "1440"
+    },
+    {
+      "id": "action200-new-long-037-s4000-refresh",
+      "kind": "generated",
+      "sha256": "bf44365c7c51ef8421315794c46becf685c1cc976858e73f5403a72fb4b7faf1",
+      "bytes": 526856488,
+      "width": 2560,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "duration": "60.000000",
+      "nb_frames": "1440"
+    },
+    {
+      "id": "action200-new-long-037-s4000-refresh",
+      "kind": "proxy",
+      "sha256": "44c0fed122f0562822fa6da7e917b92ed0da08e96f10715a28a80ccef7c845a6",
+      "bytes": 28431900,
+      "width": 2560,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "duration": "60.000000",
+      "nb_frames": "1440"
     }
   ],
   "encoded": [
@@ -489,6 +522,61 @@
       "duration": 60.0,
       "bytes": 8031690,
       "sha256": "44e08d439e878c01aedade3dec6e70a1618fbb0c9446839dd6864b7e35629bd3"
+    },
+    {
+      "id": "action200-new-long-032-s4000-refresh",
+      "kind": "generated",
+      "frames": 1440,
+      "duration": 60.0,
+      "bytes": 14658968,
+      "sha256": "d63eac5cc2c378d764c7e2792a96f25113d1850f1cbf8251044b28be64809236"
+    },
+    {
+      "id": "action200-new-long-032-s4000-refresh",
+      "kind": "proxy",
+      "frames": 1440,
+      "duration": 60.0,
+      "bytes": 6887970,
+      "sha256": "2119609e6c8fa114060346cd59fee4f3a4757752500e66a96699945be1aabff7"
+    },
+    {
+      "id": "action200-new-long-037-s4000-refresh",
+      "kind": "generated",
+      "frames": 1440,
+      "duration": 60.0,
+      "bytes": 15192248,
+      "sha256": "09986b140855ecbce31c75b508a5d60b9892d8785ee3e1bd1f156734960b579c"
+    },
+    {
+      "id": "action200-new-long-037-s4000-refresh",
+      "kind": "proxy",
+      "frames": 1440,
+      "duration": 60.0,
+      "bytes": 7209841,
+      "sha256": "d9858e48f99e3484e21dc2fdc0a81f7571e07b93345807e3bad9ef885daba1f4"
+    }
+  ],
+  "replacedLongIds": [
+    "action200-new-long-032-s4000",
+    "action200-new-long-037-s4000"
+  ],
+  "temporaryLongFillers": [
+    "action200-new-long-009-s4000",
+    "action200-new-long-019-s4000"
+  ],
+  "selectionInstruction": "Use the supplied cases and checkpoints directly regardless of any match to existing cases, per the owner clarification.",
+  "directReplacements": [
+    {
+      "id": "action200-new-long-032-s4000-refresh",
+      "sourceCase": "new_long--case_032_1007--interaction--t000118296",
+      "sourceIndex": 82,
+      "checkpoint": 4000
+    },
+    {
+      "id": "action200-new-long-037-s4000-refresh",
+      "sourceCase": "new_long--case_037_1008--interaction--t000187240",
+      "sourceIndex": 87,
+      "checkpoint": 4000
     }
   ]
 }

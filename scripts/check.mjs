@@ -26,7 +26,13 @@ assert.equal(gallery.long.length, refresh.longCount, 'Long selection must match 
 assert.equal(gallery.long.length % 3, 0, 'Long gallery must have complete three-column rows');
 assert.deepEqual(gallery.long.slice(0, 2).map((item) => item.title), refresh.longLeadingTitles, 'Preserve the requested first two long cases');
 assert(!gallery.short.some((item) => refresh.removedShortTitles.includes(item.title)), 'Rejected short cases must be absent');
-assert(!gallery.long.some((item) => refresh.removedLongTitles.includes(item.title)), 'Rejected or replaced long cases must be absent');
+assert(!gallery.long.some((item) => refresh.replacedLongIds.includes(item.id)), 'Old media entries must be replaced by the explicitly requested sources');
+assert.deepEqual(gallery.long.filter((item) => item.selectionRole === 'temporary-row-filler').map((item) => item.id), refresh.temporaryLongFillers, 'Only the designated average long cases may complete the final row');
+for (const expected of refresh.directReplacements) {
+  const item = gallery.long.find((entry) => entry.id === expected.id);
+  assert(item, `Missing directly requested replacement: ${expected.id}`);
+  for (const key of Object.keys(expected)) assert.equal(item[key], expected[key], `Incorrect replacement ${key}`);
+}
 assert.deepEqual(gallery.short.filter((item) => item.selectionRole === 'temporary-row-filler').map((item) => item.id), refresh.temporaryFillers, 'Only the recorded average case may fill the final row');
 assets.add('assets/gallery-layout.js');
 assert(app.includes("shuffle(entries).slice(0, 6)"), 'The cover must use six randomly selected short clips');

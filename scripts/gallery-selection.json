@@ -402,14 +402,18 @@
       "group": "interaction"
     },
     {
-      "id": "action200-new-long-037-s4000",
+      "id": "action200-new-long-037-s4000-refresh",
       "sourceSuite": "action200-long",
       "sourceCase": "new_long--case_037_1008--interaction--t000187240",
-      "sourceIndex": 37,
+      "sourceIndex": 87,
+      "sourceVariant": "step-004000",
       "checkpoint": 4000,
+      "seed": 123464386,
       "frames": 1440,
       "fps": 24,
-      "group": "interaction"
+      "sourceFrames": 1440,
+      "group": "interaction",
+      "selectionRole": "directly-requested-replacement"
     },
     {
       "id": "action200-old-long-043-s2000",
@@ -507,6 +511,20 @@
       "group": "interaction"
     },
     {
+      "id": "action200-new-long-032-s4000-refresh",
+      "sourceSuite": "action200-long",
+      "sourceCase": "new_long--case_032_1007--interaction--t000118296",
+      "sourceIndex": 82,
+      "sourceVariant": "step-004000",
+      "checkpoint": 4000,
+      "seed": 2035641185,
+      "frames": 1440,
+      "fps": 24,
+      "sourceFrames": 1440,
+      "group": "interaction",
+      "selectionRole": "directly-requested-replacement"
+    },
+    {
       "id": "action200-new-long-044-s4000",
       "sourceSuite": "action200-long",
       "sourceCase": "new_long--case_044_1007--exploration--t000091760",
@@ -518,6 +536,28 @@
       "fps": 24,
       "sourceFrames": 1440,
       "group": "exploration"
+    },
+    {
+      "id": "action200-new-long-009-s4000",
+      "sourceSuite": "action200-long",
+      "sourceCase": "new_long--case_009_1008--riding--t000118048",
+      "sourceIndex": 9,
+      "checkpoint": 4000,
+      "frames": 1440,
+      "fps": 24,
+      "group": "riding",
+      "selectionRole": "temporary-row-filler"
+    },
+    {
+      "id": "action200-new-long-019-s4000",
+      "sourceSuite": "action200-long",
+      "sourceCase": "new_long--case_019_1009--riding--t000019964",
+      "sourceIndex": 19,
+      "checkpoint": 4000,
+      "frames": 1440,
+      "fps": 24,
+      "group": "riding",
+      "selectionRole": "temporary-row-filler"
     }
   ]
 }
