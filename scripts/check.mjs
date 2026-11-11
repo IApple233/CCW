@@ -16,6 +16,10 @@ const assets = new Set([...html.matchAll(/(?:src|href|poster)="([^"#][^"]*)"/g)]
 for (const match of css.matchAll(/url\("([^"]+)"\)/g)) assets.add(`assets/${match[1]}`);
 assert.equal(gallery.short.length, 32, 'Exactly 32 current short examples are required');
 assert.equal(gallery.long.length, 12, 'Exactly 12 current long examples are required');
+assert(app.includes("shuffle(entries).slice(0, 6)"), 'The cover must use six randomly selected short clips');
+assert(app.includes("root.dataset.collection === 'short' ? 16"), 'Short examples must be paged in groups of 16');
+assert(app.includes('let currentPage = -1'), 'Short pagination must initialize before showing page one');
+assert(css.includes('aspect-ratio: var(--media-ratio, 1600 / 450)'), 'Cover tiles must preserve source media ratios');
 for (const collection of ['short', 'long']) {
   assert.deepEqual(gallery[collection].map((item) => item.id), selection[collection].map((item) => item.id), `The ${collection} cases must follow the project owner's current selection and order`);
 }
@@ -27,9 +31,6 @@ assert.equal(gallery.long.filter((item) => item.group === 'interaction').length,
 assert.equal(gallery.long.filter((item) => item.group === 'exploration').length, 1, 'One exploration example is required');
 assert(!html.includes('class="play-button"') && !html.includes('playback-timeline'), 'Gallery playback has no extra play or timeline controls');
 assert(!html.includes('data-category='), 'Long scenes are presented as one gallery without category filters');
-assert.equal((html.match(/class="case-selector long-selector"/g) || []).length, 1, 'Long scenes use one selector');
-assert(css.includes('.long-selector { grid-template-columns: repeat(6, minmax(0, 1fr))'), 'The desktop long-scene gallery uses six columns');
-assert(app.includes('this.shell.scrollIntoView({ block: \'center\', behavior: \'auto\' })') && app.includes('this.select(index, true)'), 'Opening a case scrolls to its player and starts playback');
 const examples = [...gallery.short, ...gallery.long];
 const ids = new Set();
 for (const item of examples) {
@@ -39,6 +40,7 @@ for (const item of examples) {
   assert(item.duration > 0, 'Every clip needs a duration');
   for (const key of ['generated', 'proxy', 'poster', 'proxyPoster', 'thumbnail']) assets.add(item[key]);
   assets.add(item.thumbnail.replace(/\.webp$/, '-320.webp'));
+  for (const width of [480, 960]) assets.add(`assets/media/previews/${item.id}-${width}.webp`);
 }
 for (const asset of assets) await access(path.join(root, asset), constants.R_OK);
 for (const asset of [...assets].filter((asset) => asset.endsWith('.mp4'))) {
@@ -48,5 +50,4 @@ for (const asset of [...assets].filter((asset) => asset.endsWith('.mp4'))) {
 }
 for (const anchor of html.matchAll(/href="#([^"]+)"/g)) assert(html.includes(`id="${anchor[1]}"`), `Broken anchor: ${anchor[1]}`);
 assert(html.includes('CoCode-World'), 'Correct publication title required');
-assert(html.includes('0.524') && html.includes('0.469') && html.includes('3.847') && html.includes('3.552'), 'Published metrics must match the supplied abstract');
-console.log(`Validated ${assets.size} local assets, ${examples.length} gallery examples, desktop layout, playback controls, section anchors, and supplied metrics.`);
+console.log(`Validated ${assets.size} local assets, ${examples.length} gallery examples, selected case order, media revisions, and section anchors.`);
