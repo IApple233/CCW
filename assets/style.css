@@ -61,6 +61,9 @@ button:focus-visible,a:focus-visible,input:focus-visible { outline: 3px solid #4
 .button:hover { transform: translateY(-2px); }
 .button:active { transform: translateY(1px); }
 .button-primary > span { font-size: 12px; }
+.cover-resources { display: flex; flex-wrap: wrap; justify-content: center; gap: 0 26px; margin: 18px auto 0; padding-top: 10px; border-top: 1px solid #e4eee133; }
+.cover-resources a { display: inline-flex; align-items: center; min-height: 44px; color: #e2e5dd; font-size: 13px; font-weight: 700; text-underline-offset: 4px; transition: color var(--m-in); }
+.cover-resources a:hover { color: var(--accent); text-decoration: underline; }
 .cover-scroll { position: absolute; bottom: 34px; left: 50%; transform: translateX(-50%); display: flex; flex-direction: column; gap: 12px; align-items: center; font-size: 13px; letter-spacing: .025em; color: #d3dbd5; padding: 10px; }
 .cover-scroll > span:last-child { font-size: 24px; line-height: 1; }
 
@@ -167,6 +170,8 @@ h2 em { font-family: var(--font-serif); font-weight: 400; letter-spacing: -.045e
   .cover-subtitle { font-size: 23px; margin-top: 26px; }
   .cover-actions { margin-top: 30px; gap: 10px; }
   .button { font-size: 13px; padding-inline: 18px; }
+  .cover-resources { column-gap: 18px; margin-top: 12px; padding-top: 6px; }
+  .cover-resources a { font-size: 12px; }
   .cover-scroll { font-size: 11px; white-space: nowrap; }
   .section { padding: 52px 0 64px; }
   .section-heading { margin-bottom: 28px; }
